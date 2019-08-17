@@ -60,8 +60,8 @@ export class Index9Component implements OnInit {
 
     this.myStyle = {
       'position': 'absolute',
-      'width': '100%',
-      'height': '100%',
+      'width': '200%',
+      'height': '200%',
       'z-index': 11,
       'top': 0,
       'left': 0,
