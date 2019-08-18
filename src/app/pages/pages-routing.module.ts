@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import {StrategyComponent} from './strategy/strategy.component';
 import {PortfolioComponent} from './portfolio/portfolio.component';
 import {DisclaimersComponent} from './disclaimers/disclaimers.component';
-import { OurteamComponent } from './ourteam/ourteam.component';
+import {OurteamComponent} from './ourteam/ourteam.component';
 
 const routes: Routes = [
   { path: '', loadChildren: './home/home.module#HomeModule' },
