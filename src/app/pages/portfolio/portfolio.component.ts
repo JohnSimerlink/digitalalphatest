@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {PortfolioCategory, portfolioData} from './portfolioData';
 
 @Component({
   selector: 'app-portfolio',
@@ -6,8 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./portfolio.component.css']
 })
 export class PortfolioComponent implements OnInit {
+  public portfolioSections: PortfolioCategory[]
 
-  constructor() { }
+  constructor() {
+    this.portfolioSections = portfolioData
+  }
 
   ngOnInit() {
   }

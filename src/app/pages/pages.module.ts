@@ -6,11 +6,12 @@ import { StrategyComponent } from './strategy/strategy.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { DisclaimersComponent } from './disclaimers/disclaimers.component';
 import { OurteamComponent } from './ourteam/ourteam.component';
+import {PortfolioCardComponent} from './portfolio/portfolioCard.component';
 
 @NgModule({
-  declarations: [ StrategyComponent, PortfolioComponent, DisclaimersComponent, OurteamComponent],
+  declarations: [StrategyComponent, PortfolioComponent, DisclaimersComponent, OurteamComponent, PortfolioCardComponent],
   imports: [
-    CommonModule, 
+    CommonModule,
     HomeModule,
     PagesRoutingModule
   ]
