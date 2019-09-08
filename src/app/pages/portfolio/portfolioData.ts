@@ -44,7 +44,7 @@ export const portfolioData: PortfolioCategory[] = [
         companyName: 'Google Station WiFi',
         quarter: '1Q',
         year: 2018,
-        imageSource: 'assets/images/portfolio/cloudium.png',
+        imageSource: 'assets/images/portfolio/GoogleStation.png',
         pressHighlights: [
           {
             text: 'Google Station announcement at Mobile World Congress Barcelona',
@@ -56,7 +56,7 @@ export const portfolioData: PortfolioCategory[] = [
         companyName: 'PacketFabric',
         quarter: '3Q',
         year: 2019,
-        imageSource: 'assets/images/portfolio/cloudium.png',
+        imageSource: 'assets/images/portfolio/Untitled.png',
         pressHighlights: [
           {
             text: 'PacketFabric Secures $75M Joint Venture Funding With Digital Alpha Advisors',
